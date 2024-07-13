@@ -1,0 +1,109 @@
+Date : 2024-07-08 16:17:50
+Directory : c:\Serious Project\React Native\FoodOrdering\src
+Total : 57 files,  2487 codes, 69 comments, 268 blanks, all 2824 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| TypeScript JSX |         44 |      1,908 |         50 |        186 |      2,144 |
+| TypeScript     |         12 |        572 |         19 |         78 |        669 |
+| JavaScript     |          1 |          7 |          0 |          4 |         11 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                    | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                       |         57 |      2,487 |         69 |        268 |      2,824 |
+| app                                                                                                     |         21 |        769 |         39 |         94 |        902 |
+| app (Files)                                                                                             |          2 |         98 |          0 |         15 |        113 |
+| app\(auth)                                                                                              |          5 |        293 |          4 |         21 |        318 |
+| app\(home)                                                                                              |          7 |        160 |         16 |         24 |        200 |
+| app\(home) (Files)                                                                                      |          3 |         48 |          1 |          8 |         57 |
+| app\(home)\menu                                                                                         |          2 |         58 |          4 |         10 |         72 |
+| app\(home)\orders                                                                                       |          2 |         54 |         11 |          6 |         71 |
+| app\cart                                                                                                |          2 |         18 |          0 |          6 |         24 |
+| app\products                                                                                            |          5 |        200 |         19 |         28 |        247 |
+| app\products (Files)                                                                                    |          3 |        133 |          0 |         16 |        149 |
+| app\products\edit                                                                                       |          2 |         67 |         19 |         12 |         98 |
+| components                                                                                              |         24 |      1,146 |         11 |         96 |      1,253 |
+| components\__tests__                                                                                    |          1 |          7 |          0 |          4 |         11 |
+| components\cart-detail                                                                                  |          4 |        180 |          0 |         14 |        194 |
+| components\common                                                                                       |          5 |        139 |          4 |         17 |        160 |
+| components\home-header                                                                                  |          1 |         94 |          1 |          5 |        100 |
+| components\order-history-card                                                                           |          2 |         85 |          0 |          7 |         92 |
+| components\product-card-display                                                                         |          1 |         48 |          0 |          4 |         52 |
+| components\product-display                                                                              |          6 |        266 |          0 |         28 |        294 |
+| components\product-form                                                                                 |          3 |        228 |          6 |         10 |        244 |
+| components\tab-bar                                                                                      |          1 |         99 |          0 |          7 |        106 |
+| enums                                                                                                   |          2 |         13 |          0 |          2 |         15 |
+| firebase                                                                                                |          2 |         67 |          2 |         12 |         81 |
+| redux                                                                                                   |          5 |        405 |          8 |         36 |        449 |
+| types                                                                                                   |          1 |         53 |          9 |         16 |         78 |
+| util                                                                                                    |          2 |         34 |          0 |         12 |         46 |
++---------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                                                                | language       | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| c:\Serious Project\React Native\FoodOrdering\src\app\(auth)\_layout.tsx                                 | TypeScript JSX |         15 |          0 |          3 |         18 |
+| c:\Serious Project\React Native\FoodOrdering\src\app\(auth)\create-success.tsx                          | TypeScript JSX |         23 |          0 |          3 |         26 |
+| c:\Serious Project\React Native\FoodOrdering\src\app\(auth)\index.tsx                                   | TypeScript JSX |          7 |          0 |          3 |         10 |
+| c:\Serious Project\React Native\FoodOrdering\src\app\(auth)\sign-in.tsx                                 | TypeScript JSX |        108 |          3 |          5 |        116 |
+| c:\Serious Project\React Native\FoodOrdering\src\app\(auth)\sign-up.tsx                                 | TypeScript JSX |        140 |          1 |          7 |        148 |
+| c:\Serious Project\React Native\FoodOrdering\src\app\(home)\_layout.tsx                                 | TypeScript JSX |         34 |          1 |          3 |         38 |
+| c:\Serious Project\React Native\FoodOrdering\src\app\(home)\index.tsx                                   | TypeScript JSX |          4 |          0 |          2 |          6 |
+| c:\Serious Project\React Native\FoodOrdering\src\app\(home)\logout.tsx                                  | TypeScript JSX |         10 |          0 |          3 |         13 |
+| c:\Serious Project\React Native\FoodOrdering\src\app\(home)\menu\_layout.tsx                            | TypeScript JSX |         11 |          0 |          3 |         14 |
+| c:\Serious Project\React Native\FoodOrdering\src\app\(home)\menu\index.tsx                              | TypeScript JSX |         47 |          4 |          7 |         58 |
+| c:\Serious Project\React Native\FoodOrdering\src\app\(home)\orders\_layout.tsx                          | TypeScript JSX |         11 |          0 |          3 |         14 |
+| c:\Serious Project\React Native\FoodOrdering\src\app\(home)\orders\index.tsx                            | TypeScript JSX |         43 |         11 |          3 |         57 |
+| c:\Serious Project\React Native\FoodOrdering\src\app\_layout.tsx                                        | TypeScript JSX |         84 |          0 |         10 |         94 |
+| c:\Serious Project\React Native\FoodOrdering\src\app\cart\_layout.tsx                                   | TypeScript JSX |         12 |          0 |          3 |         15 |
+| c:\Serious Project\React Native\FoodOrdering\src\app\cart\index.tsx                                     | TypeScript JSX |          6 |          0 |          3 |          9 |
+| c:\Serious Project\React Native\FoodOrdering\src\app\index.tsx                                          | TypeScript JSX |         14 |          0 |          5 |         19 |
+| c:\Serious Project\React Native\FoodOrdering\src\app\products\[id].tsx                                  | TypeScript JSX |         26 |          0 |          5 |         31 |
+| c:\Serious Project\React Native\FoodOrdering\src\app\products\_layout.tsx                               | TypeScript JSX |         14 |          0 |          3 |         17 |
+| c:\Serious Project\React Native\FoodOrdering\src\app\products\edit\[id].tsx                             | TypeScript JSX |         57 |         19 |          9 |         85 |
+| c:\Serious Project\React Native\FoodOrdering\src\app\products\edit\_layout.tsx                          | TypeScript JSX |         10 |          0 |          3 |         13 |
+| c:\Serious Project\React Native\FoodOrdering\src\app\products\new.tsx                                   | TypeScript JSX |         93 |          0 |          8 |        101 |
+| c:\Serious Project\React Native\FoodOrdering\src\components\__tests__\StyledText-test.js                | JavaScript     |          7 |          0 |          4 |         11 |
+| c:\Serious Project\React Native\FoodOrdering\src\components\cart-detail\CartDetail.tsx                  | TypeScript JSX |         41 |          0 |          3 |         44 |
+| c:\Serious Project\React Native\FoodOrdering\src\components\cart-detail\CartDetailCard.tsx              | TypeScript JSX |         44 |          0 |          4 |         48 |
+| c:\Serious Project\React Native\FoodOrdering\src\components\cart-detail\PaymentDescription.tsx          | TypeScript JSX |         52 |          0 |          2 |         54 |
+| c:\Serious Project\React Native\FoodOrdering\src\components\cart-detail\QuantityButton.tsx              | TypeScript JSX |         43 |          0 |          5 |         48 |
+| c:\Serious Project\React Native\FoodOrdering\src\components\common\BackPreviousButton.tsx               | TypeScript JSX |         32 |          0 |          3 |         35 |
+| c:\Serious Project\React Native\FoodOrdering\src\components\common\Chip.tsx                             | TypeScript JSX |         21 |          0 |          3 |         24 |
+| c:\Serious Project\React Native\FoodOrdering\src\components\common\CommonButton.tsx                     | TypeScript JSX |         32 |          0 |          4 |         36 |
+| c:\Serious Project\React Native\FoodOrdering\src\components\common\DismissKeyboard.tsx                  | TypeScript JSX |         10 |          0 |          4 |         14 |
+| c:\Serious Project\React Native\FoodOrdering\src\components\common\FormInput.tsx                        | TypeScript JSX |         44 |          4 |          3 |         51 |
+| c:\Serious Project\React Native\FoodOrdering\src\components\home-header\HomeHeader.tsx                  | TypeScript JSX |         94 |          1 |          5 |        100 |
+| c:\Serious Project\React Native\FoodOrdering\src\components\order-history-card\OrderHistoryCard.tsx     | TypeScript JSX |         33 |          0 |          4 |         37 |
+| c:\Serious Project\React Native\FoodOrdering\src\components\order-history-card\OrderImageGroup.tsx      | TypeScript JSX |         52 |          0 |          3 |         55 |
+| c:\Serious Project\React Native\FoodOrdering\src\components\product-card-display\ProductCardDisplay.tsx | TypeScript JSX |         48 |          0 |          4 |         52 |
+| c:\Serious Project\React Native\FoodOrdering\src\components\product-display\CountAndAddCartButton.tsx   | TypeScript JSX |         62 |          0 |          8 |         70 |
+| c:\Serious Project\React Native\FoodOrdering\src\components\product-display\IconDisplay.tsx             | TypeScript JSX |         15 |          0 |          3 |         18 |
+| c:\Serious Project\React Native\FoodOrdering\src\components\product-display\NutritionFact.tsx           | TypeScript JSX |         15 |          0 |          3 |         18 |
+| c:\Serious Project\React Native\FoodOrdering\src\components\product-display\NutritionFactDisplay.tsx    | TypeScript JSX |         26 |          0 |          3 |         29 |
+| c:\Serious Project\React Native\FoodOrdering\src\components\product-display\ProductDisplay.tsx          | TypeScript JSX |        118 |          0 |          6 |        124 |
+| c:\Serious Project\React Native\FoodOrdering\src\components\product-display\ProductSize.tsx             | TypeScript JSX |         30 |          0 |          5 |         35 |
+| c:\Serious Project\React Native\FoodOrdering\src\components\product-form\AddIngredientModal.tsx         | TypeScript JSX |         39 |          0 |          4 |         43 |
+| c:\Serious Project\React Native\FoodOrdering\src\components\product-form\IngredientChip.tsx             | TypeScript JSX |         17 |          0 |          2 |         19 |
+| c:\Serious Project\React Native\FoodOrdering\src\components\product-form\ProductForm.tsx                | TypeScript JSX |        172 |          6 |          4 |        182 |
+| c:\Serious Project\React Native\FoodOrdering\src\components\tab-bar\TabBar.tsx                          | TypeScript JSX |         99 |          0 |          7 |        106 |
+| c:\Serious Project\React Native\FoodOrdering\src\enums\OrderStatusEnum.ts                               | TypeScript     |          7 |          0 |          1 |          8 |
+| c:\Serious Project\React Native\FoodOrdering\src\enums\SizeEnum.ts                                      | TypeScript     |          6 |          0 |          1 |          7 |
+| c:\Serious Project\React Native\FoodOrdering\src\firebase\firebaseConfig.ts                             | TypeScript     |         19 |          0 |          7 |         26 |
+| c:\Serious Project\React Native\FoodOrdering\src\firebase\firebaseService.ts                            | TypeScript     |         48 |          2 |          5 |         55 |
+| c:\Serious Project\React Native\FoodOrdering\src\redux\authSlice.ts                                     | TypeScript     |        148 |          4 |          8 |        160 |
+| c:\Serious Project\React Native\FoodOrdering\src\redux\cartSlice.ts                                     | TypeScript     |        117 |          0 |          8 |        125 |
+| c:\Serious Project\React Native\FoodOrdering\src\redux\createProductSlice.ts                            | TypeScript     |         43 |          0 |          5 |         48 |
+| c:\Serious Project\React Native\FoodOrdering\src\redux\productsSlice.ts                                 | TypeScript     |         81 |          3 |         13 |         97 |
+| c:\Serious Project\React Native\FoodOrdering\src\redux\store.ts                                         | TypeScript     |         16 |          1 |          2 |         19 |
+| c:\Serious Project\React Native\FoodOrdering\src\types\type.ts                                          | TypeScript     |         53 |          9 |         16 |         78 |
+| c:\Serious Project\React Native\FoodOrdering\src\util\useAuth.ts                                        | TypeScript     |         13 |          0 |          3 |         16 |
+| c:\Serious Project\React Native\FoodOrdering\src\util\useKeyboardHeight.ts                              | TypeScript     |         21 |          0 |          9 |         30 |
+| Total                                                                                                   |                |      2,487 |         69 |        268 |      2,824 |
++---------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
